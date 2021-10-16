@@ -1,0 +1,12 @@
+.inp{
+  padding: 10px;
+  margin: 5px;
+  font-size: 1em;
+  border: none;
+  border-bottom: 1px solid blue;
+}
+
+.btn {
+  background-color: black;
+  color: white;
+}
