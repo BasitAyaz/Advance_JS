@@ -10,8 +10,8 @@ function LoginButton() {
 function Pera(props) {
     return (
         <>
-            <p style={{ color: 'grey', fontSize: '1.2em' }}>
-                {props.children}
+            <p style={props.style}>
+                {typeof(props.val) == 'number'? props.children:''}
             </p>
         </>
     )
