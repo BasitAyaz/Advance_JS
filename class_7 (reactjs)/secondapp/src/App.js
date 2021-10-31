@@ -1,18 +1,16 @@
-import { useState } from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
-import "./App.css";
+import React from "react";
+import AboutUs from "./AboutUs";
+import Contact from "./Contact";
+import Layout from "./Layout";
 
-
-function App() {
+const App = () => {
   return (
-    <div className="App"> 
-      <header className="App-header">
-        
-          
-        
-      </header>
+    <div>
+      <Layout>
+        <Contact />
+      </Layout>
     </div>
   );
-}
+};
 
 export default App;
