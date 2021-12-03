@@ -1,0 +1,27 @@
+:root {
+  --darkColor: #023047;
+  --light: #8ecae6;
+}
+
+.App {
+  text-align: center;
+}
+.head {
+  padding: 30;
+  background-color: var(--darkColor);
+  color: white;
+}
+.btn {
+  padding: 10px;
+  font-size: 1em;
+}
+
+.inp {
+  border: 2px solid var(--light);
+  padding: 10;
+  font-size: 1em;
+  outline: none;
+}
+.inp:focus {
+  border: 2px solid var(--darkColor);
+}
